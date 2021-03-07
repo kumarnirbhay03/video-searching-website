@@ -52,18 +52,10 @@
     border:0;
     outline:none;
 }
-.btn{
-    padding:10px 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 1450px;
-    cursor:pointer;
-    background: linear-gradient( rgb(3, 134, 47) , rgb(149, 212, 2));
-    border:0;
-    outline:none;
-}
+
 .h1{
-    text-align: center;
+   
+    
     color:rgb(8, 143, 38);
 }
 
