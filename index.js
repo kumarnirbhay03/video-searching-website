@@ -1,4 +1,7 @@
-
+let n = showCategory();
+for (let i = 0; i < n; i++){
+    showLink(i);
+}
   var firebaseConfig = {
     apiKey: "AIzaSyBrFJwmlJagX5JwXwshV6YCsB9r8ZwXFRQ",
     authDomain: "signup-8eedb.firebaseapp.com",
