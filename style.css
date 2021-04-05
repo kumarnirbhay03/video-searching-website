@@ -3,23 +3,16 @@
     margin: 0;
 }
 .heading{
-    color:rgb(8, 143, 38);
+    color:blanchedalmond;
 }
 
-.first{
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(  rgb(245, 250, 246) , rgb(214, 193, 5));
-    background-position: center;
-    background-size: cover;
-    position: absolute; 
-}
+
 .form{
     width:300px;
     height:300px;
     position:relative;
     margin:6% auto;
-    background: linear-gradient(to bottom, rgb(245, 250, 246) , rgb(214, 193, 5));
+   
     padding:5px;
     overflow:hidden;
 }
@@ -32,6 +25,7 @@
     margin-left: 10px;
 }
 .input-field{
+    color:blanchedalmond;
     text-align:center;
     width:100%;
     padding:10px 0;
@@ -41,21 +35,38 @@
     border-right:0;
     outline:none;
     background:transparent;
+    
+}
+::placeholder{
+    color:blanchedalmond;
 }
 .submit-btn{
+    color: blanchedalmond;
+    opacity: 0.8;
     width:100%;
     padding:10px 30px;
     margin-top: 20px;
     margin-bottom: 20px;
     cursor:pointer;
-    background: linear-gradient( rgb(3, 134, 47) , rgb(149, 212, 2));
+    background:linear-gradient(to right , #ff105f,#0634ff);
     border:0;
     outline:none;
 }
-
-.h1{
+.h2{
    
-    
-    color:rgb(8, 143, 38);
+    margin:auto;
+    color:blanchedalmond;
 }
-
+.h3{
+    color:blanchedalmond;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: url(5-Examples-of-Background-Video-in-Websites-1.jpg);
+    background-size: cover;
+}
+.card{
+    background: linear-gradient( rgb(0, 111, 214) , rgb(3, 241, 82));
+   
+}
