@@ -131,7 +131,7 @@ function showCategories() {
         
         html += `
         <div class="card mx-3 my-3" style="opacity:0.9;  border:none; " >
-        <input class="form-control mx-2 my-2" id="searchLink${category}" type="search" placeholder="Search-by-link" aria-label="Search" onclick=recordname(${category})  style="width: 18rem; ">
+        <input class="form-control mx-2 my-2" id="searchLink${category}" type="search" placeholder="Voice-search(link)" aria-label="Search" onclick=recordname(${category})  style="width: 18rem; ">
         <button class="btn btn-primary mx-2" type="submit" id="cls1" onclick="reload()" style="width: 5rem; " >Reload</button>
             <div class="card-body" style="opacity:0.9;" >
               <b><h5 style="font-family:verdana;font-size:150%; color:blanchedalmond;" class="card-title">${element.title} <button id="${category}" onclick="deleteCategory(${category})" class="btn btn-primary mx-2">Delete Cat</button></h5><b>
